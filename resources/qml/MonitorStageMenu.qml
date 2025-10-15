@@ -94,13 +94,6 @@ Item
         }
         y: - Math.floor((UM.Theme.getSize("main_window_header").height + height) / 2)
 
-        source:
-        {
-            if(isLE52) {
-                return "MachineSelector40.qml";
-            } else {
-                return "MachineSelector53.qml";
-            }
-        }
+        source: "MachineSelector53.qml";
     }
 }
