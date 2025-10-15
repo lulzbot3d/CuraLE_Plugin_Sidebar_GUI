@@ -1,4 +1,4 @@
-name: "Cura-plugin release"
+name: "CuraLE Plugin Release"
 
 on:
   push:
